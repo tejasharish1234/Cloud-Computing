@@ -11,8 +11,6 @@ def checkout_logic():
 
     total = 0
     for e in events:
-        fee = e[0]  
-        while fee > 0:
-            total += e[0]
+        total += e[0]
 
     return total
